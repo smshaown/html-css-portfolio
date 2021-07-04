@@ -1,0 +1,77 @@
+body{   
+    font-family: 'Poppins', sans-serif;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;    
+}
+.container{
+    max-width: 1150px;
+    margin: auto;
+}
+.top-banner{
+    background-color: #fdbb2e;
+    margin-top: 0px;
+}
+.navbar-section{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+.navbar-section .log-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.navbar-section .nav-item{
+    font-size: 18px;
+    font-weight: 700;
+}
+.navbar-section .nav-item span i{
+    padding: 0px 0.4em;
+}
+.navbar-section .nav-item span i:last-child{
+    padding-right:0px;
+}
+.width-box{
+display: flex;
+margin-top: 60px;
+margin-bottom: 60px;
+}
+.half-width{
+    width: 45%;
+    margin-right: 2%;
+}
+
+
+.half-width h1{
+    font-weight: 300;
+    font-size: 40px;
+}
+.text-item h1 {
+    font-weight: 700;
+    font-size: 43px;
+    margin: 12px 0px;
+}
+
+.half-width p {
+    margin: 23px 0px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+button.view-btn {
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+}
