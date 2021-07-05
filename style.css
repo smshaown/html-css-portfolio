@@ -116,7 +116,7 @@ a.contect-btn:hover{
     margin-top: 7em;
 }
 
-.about-section .top-text {
+.top-text {
     text-align: center;
 }
 
@@ -198,10 +198,9 @@ a.contect-btn:hover{
     font-size: 18px;
 }
 
-
-
-
-
-
+.project-area{
+    background-color: #F8F9FA;
+    padding-top: 5em;
+}
 
 /* About Section End */
