@@ -301,8 +301,11 @@ a.contect-btn:hover{
 
 
 
-.skills-container{
+.skills-container ul{
     padding-right: 45px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    margin-top: 3rem;
   }
   
   .skills-container li{
@@ -463,7 +466,7 @@ a.contect-btn:hover{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 19px 42%;
+    margin: 19px 40%;
     transition-duration: 0.4s;
     cursor: pointer;
 
@@ -476,4 +479,13 @@ a.contect-btn:hover{
 
 /* Education Resume Area Start End */
 
+/* 
+.projects-area{
+    background-color: #F8F9FA;
+}
 
+.project-item ul li{
+    list-style: none;
+    float: left;
+    align-items: center;
+} */
