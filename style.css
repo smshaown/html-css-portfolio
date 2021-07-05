@@ -132,4 +132,26 @@ a.contect-btn:hover{
     font-size: 2.5em;
     font-weight: 500;
 }
+
+.personal-information{
+    display: flex;
+}
+
+.personal-text{
+    width: 62%;
+}
+.personal-text h1{
+    font-weight: 500;
+}
+.personal-text h1 span {
+    font-size: 1.2em;
+    margin-left: 0.3em;
+    border-bottom: 3px solid #F5DF4E;
+}
+.personal-text p {
+    font-size: 1.5em;
+    padding-top: .8em;
+    font-weight: 300;
+    text-align: justify;
+}
 /* About Section End */
