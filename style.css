@@ -202,5 +202,33 @@ a.contect-btn:hover{
     background-color: #F8F9FA;
     padding-top: 5em;
 }
-
 /* About Section End */
+
+/* Project Area Start */
+
+.project-experiance{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    grid-gap: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.project-box i{
+    font-size: 3em;
+    color: #F5DF4E;
+    padding-bottom: 0.2em;
+}
+
+.project-box h3 {
+    font-size: 1.5em;
+}
+
+.project-box p {
+    color: gray;
+    padding: .5em 0em;
+}
+
+/* Project Area Start */
+
+
