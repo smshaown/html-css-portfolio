@@ -241,6 +241,18 @@ a.contect-btn:hover{
     margin-top: 4rem;
     padding-bottom: 4rem;
 }
+.eductionResume-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin-top: 3rem;
+}
+.eductuonBox{
+   
+
+}
+.experienceBox{
+    
+}
 /* Education Resume Area Start End */
 
 
