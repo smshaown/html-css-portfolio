@@ -245,14 +245,57 @@ a.contect-btn:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     margin-top: 3rem;
-}
-.eductuonBox{
-   
 
 }
-.experienceBox{
-    
+.educationBox{
+   display: grid;
+   grid-gap: .5rem;
+   padding-left: 1rem;
+   margin-top: 1rem;
+   border-left: 2px solid #F5DF4E;
+   margin-right: 1rem;
 }
+
+.educationBox h3 {
+    font-weight: 500;
+}
+
+.educationBox .text-p-6{
+    color: gray;
+}
+
+
+.educationBox .text-muted-6{
+    font-weight: 500;
+    color: #0a0a0a;
+}
+
+
+
+
+
+
+.experienceBox{
+    border-left: 2px solid #F5DF4E;
+    display: grid;
+   grid-gap: .5rem;
+   padding-left: 1rem;
+   margin-top: 1rem;
+}
+
+.experienceBox h3 {
+    font-weight: 500;
+}
+
+.experienceBox .text-muted-6{
+    font-weight: 500;
+    color: #0a0a0a;
+}
+
+.experienceBox .text-p-6{
+    color: gray;
+}
+
 /* Education Resume Area Start End */
 
 
